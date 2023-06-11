@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <title>Домашнее задание №2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./js/app.js" defer></script>
+</head>
+
+<div class="block"> 
+        <ul>
+                <li><a href="https://rustih.ru/stihi-pro-osen/stixi-aleksandra-pushkina-pro-osen/">Стихи об осени.</a></li>
+                <li><a href="https://rustih.ru/stixi-o-lete/stixi-aleksandra-pushkina-pro-leto/">Стихи о лете.</a></li>
+                <li><a href="https://detskie-stihi.com/stihi-pushkina-o-lyubvi-korotkie/">Стихи о любви.</a></li>
+        </ul>
+</div>  
+
+<body background="img/10006-25.jpg">
+    <div1>
+        <header>
+            <script>
+                var name=prompt('Введите имя пользователя')
+                alert( `${ name }, мы рады приветствовать Вас на сайте, посвященному А.С.Пушкину!` )
+            </script>
+            <h1>Александр Сергеевич Пушкин (1799-1837)</h1>
+        </header>
+        <main>
+            <hr>
+            <nav>
+                <a href="index.html">Главная</a> 
+                <a href="gallery.html">Галерея</a> 
+            </nav>
+            <hr>
+            <p class="firstText">
+                <img class="textImg" src="img/znachok_pushkin_a_s_1799_1837_gg_843.jpg" alt="Памятник Пушкину А.С. на Пушкинской площади" width="200">
+            </p>
+            <p>
+                Великий поэт, драматург и прозаик Александр Сергеевич Пушкин, можно сказать, создал наш современный русский язык. Если бы не он, возможно, мы бы говорили сейчас как-то иначе. Не верите? Посмотрите ради интереса работы его предшественников или современников. Заметите, что так ясно, как великий поэт, никто тогда не писал.
+
+Именно поэтому память Пушкина особенно чтят в странах с русскоговорящим населением, а чтобы подрастающие поколения сразу после окончания школы не забывали о поэте, а взрослые могли вспомнить о великих произведениях автора, придумали праздник, который в этом году также будет отмечаться в России. Почему этот праздник так важен? Потому что это фундамент нашей культуры и истории. Знание творчества Пушкина — то, что помогает нас идентифицировать как представителей русской культуры.
+
+Читайте также <a target="_blank" href="http://chitatelskij-dnevnik.ru/kratkie-biografii/pushkin"> краткая биография Пушкина А.С.</a>    
+            </p>
+            Отзывы:<br>
+            <input type="text" placeholder="Ваше имя" id="user"> 
+            <input type="text" placeholder="Ваше сообщение" id="text"> 
+            <button onclick="app()">Отправить</button>
+            <ol>
+                <li id="message1"></li>
+                <li id="message1"></li>
+                <li>Как дела</li>
+            </ol>
+        </main>
+        <hr>
+        <footer>
+            <h2>(c)2023</h2>
+        </footer>
+        <hr>
+    </div>
+    
+</body>
+
+</html>
